@@ -24,8 +24,6 @@ export default function Accordion() {
         setMultiple(copyMultiple);
     }
 
-    console.log(selected);
-
     return <div className="wrapper">
         <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>Enable multi selection</button>
 
